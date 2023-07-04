@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Webpage Layout</title>
+    <style>
+      header {
+        background-color: #87CEEB;
+        text-align: center;
+      }
+      
+      main {
+        width: 80%;
+        margin: auto;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <header>
+      <h1>Welcome to my webpage</h1>
+    </header>
+    
+    <main>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus ex velit, id dapibus ipsum aliquet sit amet. Proin facilisis vel turpis in bibendum. Vestibulum eu egestas mi. Duis euismod mi vel posuere commodo. Praesent ut justo eu tellus dictum rhoncus ut eu ipsum. Duis ac mauris vitae sem bibendum sollicitudin. Aliquam sed libero et nunc tempor commodo. Donec massa neque, malesuada gravida dui ac, dictum pharetra lectus. Nulla facilisi.</p>
+      
+      <p>Phasellus ornare arcu sit amet augue bibendum dignissim. Suspendisse quis enim eget nisl dictum pretium. Donec eget nibh vel tellus suscipit elementum. Sed ac quam dolor. Maecenas volutpat massa eget libero bibendum, consequat gravida elit iaculis. Proin vitae risus at nulla sagittis ultricies. Praesent bibendum orci sed odio eleifend aliquam. Sed a tincidunt lorem, id dignissim or
