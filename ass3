@@ -1,0 +1,36 @@
+HTML Structure:
+
+```html
+<div class="card-container">
+  <div class="card">
+    <h2 class="card-title">Title 1</h2>
+    <img src="img1.jpg" alt="Image 1">
+    <p class="card-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+  <div class="card">
+    <h2 class="card-title">Title 2</h2>
+    <img src="img2.jpg" alt="Image 2">
+    <p class="card-content">Suspendisse viverra ante felis, sit amet scelerisque magna tincidunt non.</p>
+  </div>
+  <div class="card">
+    <h2 class="card-title">Title 3</h2>
+    <img src="img3.jpg" alt="Image 3">
+    <p class="card-content">Pellentesque sed erat viverra, pretium mi eget, vulputate justo.</p>
+  </div>
+</div>
+```
+
+CSS Styles:
+
+```css
+/* Card container */
+.card-container {
+  display: flex; /* Displays cards in a row by default */
+  flex-wrap: wrap; /* Enables cards to drop to next row when necessary */
+  justify-content: center; /* Centers the cards horizontally */
+  gap: 20px; /* Adds 20px spacing between cards */
+}
+
+/* Each card */
+.card {
+  flex: 0 0 calc(33.33% - 20px); /* Sets
